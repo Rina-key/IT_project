@@ -12,8 +12,12 @@ builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUserRepositories, UserRepositories>();
 builder.Services.AddScoped<UserService>();
+
 builder.Services.AddScoped<IBooksRepositories, BooksRepositories>();
 builder.Services.AddScoped<BooksService>();
+
+builder.Services.AddScoped<IFilmRepositories, FilmRepositories>();
+builder.Services.AddScoped<FilmService>();
 
 var app = builder.Build();
 

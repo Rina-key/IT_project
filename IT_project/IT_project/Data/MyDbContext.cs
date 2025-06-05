@@ -6,5 +6,7 @@ namespace IT_project.Data
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
         public DbSet<User> User { get; set; }
+
+        public DbSet<Books> Books { get; set; }
     }
 }

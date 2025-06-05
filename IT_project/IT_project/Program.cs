@@ -2,6 +2,7 @@ using IT_project.Data;
 using IT_project.Interfaces;
 using IT_project.Repositories;
 using IT_project.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,21 @@ builder.Services.AddScoped<FilmService>();
 
 builder.Services.AddScoped<IMusicRepositories, MusicRepositories>();
 builder.Services.AddScoped<MusicService>();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+.AddCookie(options =>
+{
+    options.Cookie.Name = "InfoClient";
+    options.LoginPath = "/Auth/login"; ;
+    options.LogoutPath = "/Auth/Logout";
+    options.ExpireTimeSpan = TimeSpan.FromDays(30);
+    options.SlidingExpiration = true;
+});
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

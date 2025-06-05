@@ -19,6 +19,9 @@ builder.Services.AddScoped<BooksService>();
 builder.Services.AddScoped<IFilmRepositories, FilmRepositories>();
 builder.Services.AddScoped<FilmService>();
 
+builder.Services.AddScoped<IMusicRepositories, MusicRepositories>();
+builder.Services.AddScoped<MusicService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

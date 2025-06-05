@@ -8,5 +8,7 @@ namespace IT_project.Data
         public DbSet<User> User { get; set; }
 
         public DbSet<Books> Books { get; set; }
+        public DbSet<Film> Film { get; set; }
+        public DbSet<Music> Music { get; set; }
     }
 }

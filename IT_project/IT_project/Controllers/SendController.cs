@@ -9,10 +9,12 @@ namespace IT_project.Controllers
 
         private readonly BooksService _booksService;
         private readonly FilmService _filmService;
-        public SendController(BooksService booksService, FilmService filmService) 
+        private readonly MusicService _musicService;
+        public SendController(BooksService booksService, FilmService filmService, MusicService musicService) 
         {
             _booksService = booksService;
             _filmService = filmService;
+            _musicService = musicService;   
         }
 
 
@@ -30,6 +32,13 @@ namespace IT_project.Controllers
         {
             List<Film> allFilms = _filmService.sendFilm();
             return View(allFilms);
+        }
+
+        [HttpGet]
+        public IActionResult Music() 
+        {
+            List<Music> allMusics = _musicService.sendMusics();
+            return View(allMusics);
         }
     }
 }

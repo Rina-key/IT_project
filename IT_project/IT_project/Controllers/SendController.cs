@@ -12,21 +12,13 @@ namespace IT_project.Controllers
         {
             _booksService = booksService;
         }
+
         [HttpGet]
-        public IActionResult books()
+        
+        public IActionResult Book()
         {
-            var query = HttpContext.Request.Query;
-            string category = query["category"];
             List<Books> allBooks = _booksService.sendBooks();
-
-            return Json(new { success = true, redirectUrl = Url.Action("BooksRec", "Send"), books = allBooks });
-            
-        }
-
-        [HttpGet]
-        public IActionResult BooksRec() 
-        {
-            return View();
+            return View(allBooks);
         }
     }
 }

@@ -1,0 +1,39 @@
+﻿@model List<Books>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Книги</title>
+    <link rel="stylesheet" href="~/css/main.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="nav-menu">
+            <a href="./index.html" class="nav-btn ">Главная</a>
+            <a href="./login.html" class="nav-btn">Вход</a>
+            <a href="./register.html" class="nav-btn">Регистрация</a>
+        </div>
+    </header>
+
+
+    <main>
+
+        @foreach(Books book in Model)
+        {
+            <div>
+                <p>@book.Title</p>
+                <p>@book.Author</p>
+            </div>
+        }
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

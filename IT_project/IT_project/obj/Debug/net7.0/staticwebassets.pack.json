@@ -9,12 +9,36 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\images\\books.jpg",
+      "PackagePath": "staticwebassets\\images\\books.jpg"
+    },
+    {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\images\\film.jpg",
+      "PackagePath": "staticwebassets\\images\\film.jpg"
+    },
+    {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\images\\m2.png",
+      "PackagePath": "staticwebassets\\images\\m2.png"
+    },
+    {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\images\\music.jpg",
+      "PackagePath": "staticwebassets\\images\\music.jpg"
     },
     {
       "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\login.js",

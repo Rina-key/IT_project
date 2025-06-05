@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bf/hNSV+oQ2yztWOvkJ5tUNvipHLa/Q1xLxe3Drh7OIkIyEOmzXnjHnU8K8KtE5gRjCBYSmEZZXGnv4LV8twuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\IT_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Леонид\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

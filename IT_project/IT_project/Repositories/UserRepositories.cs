@@ -22,14 +22,20 @@ namespace IT_project.Repositories
             return true; 
         }
 
-        public bool checkUserEmail(User user) 
+        public bool checkUsersEmail(string email) 
         {
-            User us = _context.User.FirstOrDefault(u => u.Email == user.Email);
+            User us = _context.User.FirstOrDefault(u => u.Email == email);
             if (us == null)
             {
                 return false;
             }
             return true;
+        }
+
+        public void addUser(User user) 
+        {
+            _context.User.Add(user);
+            _context.SaveChanges();
         }
     }
 

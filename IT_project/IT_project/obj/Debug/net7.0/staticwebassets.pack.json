@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
+      "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
       "Id": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

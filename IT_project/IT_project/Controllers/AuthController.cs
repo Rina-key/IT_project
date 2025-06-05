@@ -30,6 +30,12 @@ namespace IT_project.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult register()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult reg([FromBody] User user) 
         { 
@@ -37,8 +43,9 @@ namespace IT_project.Controllers
             if (!nUser) 
             {
                 _userService.addUser(user);
+                return Json(new { success = true, redirectUrl = Url.Action("login", "Auth") });
             }
-            return View(); 
+            return Json(new { success = false, error = "Неверные данные" });
         }
     }
 }

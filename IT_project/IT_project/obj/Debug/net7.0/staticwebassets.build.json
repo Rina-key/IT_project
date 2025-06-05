@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SYs1HzTQ3pue/uyLNWonxtGjSCJSajB4YWP2+7YuySc=",
+  "Hash": "cYGL8b83+DcldbuExACg7g2+KBTkYzXa34MqvFsQ7IU=",
   "Source": "IT_project",
   "BasePath": "_content/IT_project",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\register.js",
+      "SourceId": "IT_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\",
+      "BasePath": "_content/IT_project",
+      "RelativePath": "js/register.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\register.js"
     },
     {
       "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\site.js",

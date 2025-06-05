@@ -17,10 +17,14 @@ namespace IT_project.Services
             return _userRepositories.checkUsers(user);
         }
 
-        public bool checkUserEmail(User user) 
+        public bool checkUserEmail(string email) 
         {
-            return _userRepositories.checkUsersEmail(user);
+            return _userRepositories.checkUsersEmail(email);
         }
 
+        public void addUser(User user) 
+        {
+            _userRepositories.addUser(user);
+        }
     }
 }

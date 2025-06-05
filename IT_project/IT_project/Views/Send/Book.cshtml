@@ -25,9 +25,11 @@
 
         @foreach(Books book in Model)
         {
-            <div>
-                <p>@book.Title</p>
-                <p>@book.Author</p>
+            <div class="category-grid" >
+                <div class="card">
+                    <p>@book.Title</p>
+                    <p>@book.Author</p>
+                </div>
             </div>
         }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rdNe5+wlCgBr0nlwu6PQSa09qm88BmrzmL25tpg4OS0=",
+  "Hash": "SYs1HzTQ3pue/uyLNWonxtGjSCJSajB4YWP2+7YuySc=",
   "Source": "IT_project",
   "BasePath": "_content/IT_project",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IT_project.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\css\\login.css",
+      "SourceId": "IT_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\",
+      "BasePath": "_content/IT_project",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
       "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\css\\site.css",
       "SourceId": "IT_project",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\login.js",
+      "SourceId": "IT_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\",
+      "BasePath": "_content/IT_project",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "C:\\Ueba\\6 semak\\cheburnet\\lab12\\IT_project\\IT_project\\IT_project\\wwwroot\\js\\site.js",

@@ -1,7 +1,17 @@
+using IT_project.Data;
+using IT_project.Interfaces;
+using IT_project.Repositories;
+using IT_project.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(); 
+builder.Services.AddDbContext<MyDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUserRepositories, UserRepositories>();
+builder.Services.AddScoped<UserService>();
 
 var app = builder.Build();
 

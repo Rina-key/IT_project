@@ -14,24 +14,25 @@
 
     <header>
         <div class="nav-menu">
-            <a href="./index.html" class="nav-btn ">Главная</a>
-            <a href="./login.html" class="nav-btn">Вход</a>
-            <a href="./register.html" class="nav-btn">Регистрация</a>
+            <a asp-controller="Home" asp-action="Index" class="nav-btn">Главная</a>
+            <a asp-controller="Auth" asp-action="Login" class="nav-btn">Войти</a>
+            <a asp-controller="Auth" asp-action="register" class="nav-btn">Регистрация</a>
         </div>
     </header>
 
 
     <main>
-
+        <div class="category-grid">
         @foreach(Books book in Model)
         {
-            <div class="category-grid" >
+            
                 <div class="card">
                     <p class="shrift">@book.Title</p>
                     <p class="shrift">@book.Author</p>
                 </div>
-            </div>
         }
+        </div>
+        
 
     </main>
 
